@@ -1,0 +1,19 @@
+ dependencies
+/node_modules
+
+# IDEs and editors
+.project
+.settings/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+
+# misc
+npm-debug.log
+yarn-error.log
+
+# System Files
+.DS_Store
+Thumbs.db
+/.vscode/settings.json
