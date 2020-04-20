@@ -1,3 +1,4 @@
+/*头部样式*/
 .dt-header-contain {
   width: 100%;
   height: 3.4375vw;
@@ -37,6 +38,7 @@
   color: #48a799;
 }
 
+/*页面外壳样式*/
 .dt-contain {
   width: 100%;
 }
@@ -44,4 +46,19 @@
 .dt-content {
   width: 67.708333vw;
   margin: 0 auto;
+}
+
+/*页面banner样式*/
+.dt-banner-contain {
+  width: 100%;
+  height: 26.041667vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dt-banner-img {
+  width: 100%;
+  height: 100%;
 }
