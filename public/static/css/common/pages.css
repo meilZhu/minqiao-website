@@ -1,8 +1,47 @@
+.dt-header-contain {
+  width: 100%;
+  height: 3.4375vw;
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.dt-header-content {
+  width: 67.708333vw;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dt-logo {
+  width: 7.552083vw;
+  height: 2.03125vw;
+}
+
+.dt-header-list-content {
+  display: flex;
+}
+
+.dt-header-list {
+  font-size: 0.833333vw;
+  color: #fff;
+  margin-left: 1.5625vw;
+  cursor: pointer;
+}
+
+.dt-header-active-list {
+  color: #48a799;
+}
+
 .dt-contain {
   width: 100%;
 }
 
 .dt-content {
-  width: 1300px;
+  width: 67.708333vw;
   margin: 0 auto;
 }

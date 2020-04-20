@@ -1,24 +1,49 @@
 <!--
  * @FileName: 
  * @Author: manyao.zhu
- * @Date: 2019-12-17 11:45:19
+ * @Date: 2020-04-10 16:47:34
  -->
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name='keywords' content=''>
-    <meta name='description' content=''>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
     <title></title>
-    <link rel='stylesheet' type='text/css' href='/static/css/common/base.css' />
-    <link rel="stylesheet" type='text/css' href="/static/css/common/pages.css">
-    <link rel="stylesheet" type='text/css' href="/static/css/pages/index.css">
-    <script type='text/javascript' src='/javascripts/jquery-3.4.1.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/common/base.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/static/css/common/pages.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/static/css/pages/index.css" />
+    <script
+      type="text/javascript"
+      src="/javascripts/jquery-3.4.1.min.js"
+    ></script>
   </head>
   <body>
     <section class="dt-contain">
-      <div class="dt-content">
-        <img src="/static/img/share.jpg" class='index-img' alt="">
-      </div>
+      <!--头部-->
+      <section class="dt-header-contain">
+        <div class="dt-header-content">
+          <img
+            src="/static/img/common/logo.png"
+            alt="公司logo"
+            class="dt-logo"
+          />
+          <ul class="dt-header-list-content">
+            <li class="dt-header-list dt-header-active-list">首页</li>
+            <li class="dt-header-list">产品中心</li>
+            <li class="dt-header-list">服务中心</li>
+            <li class="dt-header-list">典型案例</li>
+            <li class="dt-header-list">关于我们</li>
+          </ul>
+        </div>
+      </section>
+      <div class="dt-content"></div>
+
+      <!--底部-->
+      <%- include('./common/footer'); %>
     </section>
   </body>
 </html>

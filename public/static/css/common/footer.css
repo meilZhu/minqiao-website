@@ -1,0 +1,92 @@
+.dt-footer-contain {
+  width: 100%;
+  height: 21.145833vw;
+  background: #232330;
+  padding-top: 3.59375vw;
+}
+
+.dt-footer-content {
+  width: 67.708333vw;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.dt-footer-title {
+  color: #eee;
+  font-size: 0.9375vw;
+  margin-bottom: 1.5625vw;
+  position: relative;
+}
+
+.dt-footer-title::before {
+  display: inline-block;
+  width: 3.333333vw;
+  height: 0.15625vw;
+  content: '';
+  background: #e0e0e2;
+  position: absolute;
+  left: 0.104167vw;
+  bottom: -0.520833vw;
+}
+
+.dt-zh_CN {
+  font-size: 1.25vw;
+}
+
+.dt-footer-inner-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dt-footer-left-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dt-footer-left {
+  margin-bottom: 1.041667vw;
+  display: flex;
+}
+
+.footer-left-icon {
+  width: 1.458333vw;
+  height: 1.458333vw;
+  margin-right: 1.354167vw;
+}
+
+.footer-left-desc {
+  font-size: 0.833333vw;
+  color: #d2d2d2;
+}
+
+.dt-footer-right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dt-footer-right-icon {
+  width: 6.614583vw;
+  height: 6.614583vw;
+  margin-bottom: 0.260417vw;
+}
+
+.dt-footer-right-desc {
+  font-size: 0.729167vw;
+  color: #aaa;
+}
+
+.dt-cp {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.625vw;
+  position: absolute;
+  bottom: 0.520833vw;
+}
+
+.dt-inner-cp {
+  color: #fff;
+  cursor: pointer;
+}
