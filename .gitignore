@@ -6,8 +6,8 @@
 .settings/
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
+# .vscode/*
+# !.vscode/settings.json
 
 # misc
 npm-debug.log
