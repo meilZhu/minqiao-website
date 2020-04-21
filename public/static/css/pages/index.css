@@ -1,1 +1,205 @@
+/*功能的样式*/
+.dt-function-content {
+  width: 100%;
+  height: 15.625vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8.854167vw;
+}
 
+.dt-function-list {
+  width: 14.583333vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5625vw 1.822917vw;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+
+.dt-function-icon {
+  width: 4.010417vw;
+  height: 4.010417vw;
+  margin-bottom: 1.041667vw;
+}
+
+.dt-function-title {
+  font-size: 1.041667vw;
+  color: #444444;
+  margin-bottom: 2.03125vw;
+}
+
+.dt-function-desc {
+  font-size: 0.833333vw;
+  color: #999999;
+  text-align: center;
+}
+
+.dt-team {
+  background: url('/static/img/index/team.png') no-repeat 0 0/100% 100%;
+}
+.dt-talent {
+  background: url('/static/img/index/talent.png') no-repeat 0 0/100% 100%;
+}
+.dt-spirit {
+  background: url('/static/img/index/spirit.png') no-repeat 0 0/100% 100%;
+}
+.dt-direction {
+  background: url('/static/img/index/direction.png') no-repeat 0 0/100% 100%;
+}
+
+.dt-function-list:hover {
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.09);
+}
+
+.dt-function-list:hover .dt-team {
+  background: url('/static/img/index/team_active.png') no-repeat 0 0/100% 100%;
+}
+.dt-function-list:hover .dt-talent {
+  background: url('/static/img/index/talent_active.png') no-repeat 0 0/100% 100%;
+}
+.dt-function-list:hover .dt-spirit {
+  background: url('/static/img/index/spirit_active.png') no-repeat 0 0/100% 100%;
+}
+.dt-function-list:hover .dt-direction {
+  background: url('/static/img/index/direction_active.png') no-repeat 0 0/100%
+    100%;
+}
+
+/*我们的产品的样式*/
+.dt-production {
+  width: 100%;
+  margin-bottom: 8.854167vw;
+}
+
+.dt-production-content {
+  width: 100%;
+  height: 32.864583vw;
+  display: flex;
+}
+
+.dt-production-img {
+  width: 47.395833vw;
+  height: 100%;
+}
+
+.dt-production-inner-content {
+  flex: 1;
+  padding: 4.479167vw 0 0 2.8125vw;
+  background: rgba(233, 233, 234, 1);
+}
+
+.dt-production-title {
+  font-size: 1.354167vw;
+  color: #333333;
+  position: relative;
+  margin-bottom: 3.4375vw;
+}
+
+.dt-production-title::before {
+  display: inline-block;
+  width: 1.71875vw;
+  height: 0.052083vw;
+  content: '';
+  background: #333;
+  position: absolute;
+  left: 0;
+  bottom: -0.625vw;
+}
+
+.dt-en-production-title {
+  font-size: 1.041667vw;
+  color: #666666;
+  margin-left: 0.677083vw;
+}
+
+.dt-production-desc {
+  font-size: 0.9375vw;
+  color: #515151;
+  margin-bottom: 1.041667vw;
+}
+/*我们的服务的样式*/
+.dt-service {
+  width: 100%;
+  margin-bottom: 8.489583vw;
+}
+.dt-service-content {
+  width: 67.708333vw;
+  margin: 0 auto;
+}
+
+.dt-service-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.71875vw;
+}
+
+.dt-service-list-content {
+  width: 48.802083vw;
+  height: 13.697917vw;
+  position: relative;
+}
+
+.dt-service-img {
+  width: 100%;
+  height: 100%;
+}
+
+.dt-service-desc-content {
+  width: 100%;
+  height: 100%;
+  padding: 3.645833vw 4.166667vw;
+  background: rgba(68, 160, 147, 0.87);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.dt-service-title {
+  font-size: 1.354167vw;
+}
+
+.dt-service-last-title {
+  margin-bottom: 1.822917vw;
+}
+
+.dt-service-desc {
+  font-size: 0.833333vw;
+  margin-bottom: 0.416667vw;
+}
+
+.dt-service-list:hover .dt-service-desc-content {
+  display: block;
+}
+
+.dt-service-list-jump {
+  width: 17.5vw;
+  height: 13.697917vw;
+  background: rgba(243, 243, 243, 1);
+  padding: 1.822917vw 5.208333vw 0 2.34375vw;
+  position: relative;
+}
+
+.dt-service-number {
+  font-size: 2.083333vw;
+  color: #444444;
+  margin-bottom: 1.5625vw;
+}
+
+.dt-service-number-desc {
+  font-size: 1.041667vw;
+  color: #444444;
+}
+
+.dt-service-btn {
+  display: inline-block;
+  width: 1.927083vw;
+  height: 1.927083vw;
+  background: url('/static/img/index/go.png') no-repeat 0 0/100% 100%;
+  cursor: pointer;
+  position: absolute;
+  right: 1.510417vw;
+  bottom: 1.666667vw;
+}

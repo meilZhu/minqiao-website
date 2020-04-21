@@ -29,9 +29,12 @@
 
 .dt-header-list {
   font-size: 0.833333vw;
-  color: #fff;
   margin-left: 1.5625vw;
   cursor: pointer;
+}
+
+.dt-header-jump {
+  color: #fff;
 }
 
 .dt-header-active-list {
@@ -46,6 +49,41 @@
 .dt-content {
   width: 67.708333vw;
   margin: 0 auto;
+  padding-top: 8.333333vw;
+}
+
+.dt-content-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.666667vw;
+  color: #454545;
+  position: relative;
+  margin-bottom: 6.770833vw;
+}
+
+.dt-content-title::before {
+  display: inline-block;
+  width: 4.166667vw;
+  height: 0.15625vw;
+  content: '';
+  background: #44a093;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.083333vw;
+  bottom: -1.041667vw;
+}
+
+.dt-content-sub-title {
+  font-size: 1.25vw;
+  color: #777777;
+}
+
+.dt-light-title,
+.dt-light-title::before,
+.dt-light-title .dt-content-sub-title {
+  color: #fff;
+  background: #fff;
 }
 
 /*页面banner样式*/
@@ -61,4 +99,18 @@
 .dt-banner-img {
   width: 100%;
   height: 100%;
+}
+
+/*按钮的样式*/
+.dt-btn {
+  padding: 0.416667vw 2.083333vw;
+  background: rgba(68, 160, 147, 1);
+  border: 1px solid rgba(68, 160, 147, 1);
+  border-radius: 0.833333vw;
+  cursor: pointer;
+  margin-top: 3.125vw;
+}
+
+.dt-btn-tag {
+  color: #fff;
 }
