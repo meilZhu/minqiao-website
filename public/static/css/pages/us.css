@@ -1,0 +1,43 @@
+/*关于我们的样式*/
+.dt-us {
+  width: 100%;
+  padding-top: 3.90625vw;
+}
+
+/*我们的优势的样式*/
+.dt-advantage-content {
+  width: 67.708333vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 9.375vw;
+}
+
+.dt-advantage-list {
+  width: 16.927083vw;
+  height: 16.927083vw;
+  flex-shrink: 0;
+}
+
+.dt-advantage-desc-content {
+  padding: 2.916667vw 3.854167vw 0 1.458333vw;
+  background: rgba(247, 247, 247, 1);
+}
+
+.dt-advantage-img {
+  width: 100%;
+  height: 100%;
+}
+
+.dt-advantage-title {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 2.239583vw;
+  font-weight: bolder;
+}
+
+.dt-advantage-desc {
+  font-size: 18px;
+  color: #545454;
+  line-height: 26px;
+}

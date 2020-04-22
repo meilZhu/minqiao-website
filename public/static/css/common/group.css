@@ -1,0 +1,56 @@
+/*所有关于图片展示的样式*/
+.dt-group {
+  width: 67.708333vw;
+  margin: 0 auto;
+}
+
+.dt-group-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8.854167vw;
+}
+
+.dt-group-content {
+  padding: 0 4.21875vw 0 2.1875vw;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dt-group-title {
+  font-size: 1.25vw;
+  color: #010101;
+  margin-bottom: 2.1875vw;
+  position: relative;
+}
+
+.dt-group-title::before {
+  display: inline-block;
+  width: 1.666667vw;
+  height: 0.052083vw;
+  content: '';
+  background: rgba(51, 51, 51, 1);
+  position: absolute;
+  left: 0.46875vw;
+  bottom: -0.625vw;
+}
+
+.dt-group-en-title {
+  font-size: 0.833333vw;
+  color: #666666;
+  margin-left: 0.46875vw;
+}
+
+.dt-group-desc {
+  font-size: 0.9375vw;
+  color: #666;
+  line-height: 2.552083vw;
+}
+.dt-group-img {
+  width: 34.375vw;
+  height: 20.833333vw;
+  flex-shrink: 0;
+}

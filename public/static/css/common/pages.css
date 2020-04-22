@@ -2,7 +2,7 @@
 .dt-header-contain {
   width: 100%;
   height: 3.4375vw;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   left: 0;
@@ -80,9 +80,10 @@
 }
 
 .dt-light-title,
-.dt-light-title::before,
 .dt-light-title .dt-content-sub-title {
   color: #fff;
+}
+.dt-light-title::before {
   background: #fff;
 }
 
@@ -106,9 +107,9 @@
   padding: 0.416667vw 2.083333vw;
   background: rgba(68, 160, 147, 1);
   border: 1px solid rgba(68, 160, 147, 1);
-  border-radius: 0.833333vw;
+  border-radius: 1.041667vw;
   cursor: pointer;
-  margin-top: 3.125vw;
+  margin-top: 2.34375vw;
 }
 
 .dt-btn-tag {

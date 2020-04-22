@@ -203,3 +203,179 @@
   right: 1.510417vw;
   bottom: 1.666667vw;
 }
+
+/*公司案例的样式*/
+.dt-case-content {
+  width: 67.708333vw;
+  margin: 0 auto;
+  height: 26.041667vw;
+  position: relative;
+  margin-bottom: 8.854167vw;
+}
+
+.dt-case-inner-content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.dt-case--list-content {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.dt-case-list {
+  width: 67.708333vw;
+  flex: 1;
+  padding: 4.635417vw 1.770833vw 0 27.760417vw;
+  position: relative;
+}
+
+.dt-case-list-desc-content {
+  width: 34.427083vw;
+  height: 21.770833vw;
+  padding: 2.604167vw 6.5625vw 0 1.979167vw;
+  position: absolute;
+  top: 0;
+  left: 1.770833vw;
+  box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.dt-case-list-title {
+  font-size: 1.354167vw;
+  color: #333;
+  position: relative;
+  margin-bottom: 3.125vw;
+}
+
+.dt-case-list-title::before {
+  display: inline-block;
+  width: 5.208333vw;
+  height: 0.15625vw;
+  content: '';
+  background: #44a093;
+  position: absolute;
+  left: 0;
+  bottom: -0.520833vw;
+}
+
+.dt-case-list-desc {
+  font-size: 0.9375vw;
+  color: #979797;
+  line-height: 2.135417vw;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.dt-case-img {
+  width: 100%;
+  height: 100%;
+}
+
+.dt-private-btn {
+  margin-top: 1.5625vw;
+}
+
+.dt-case-btn {
+  width: 2.708333vw;
+  height: 2.708333vw;
+  position: absolute;
+  top: 50%;
+  margin-top: -1.354167vw;
+  cursor: pointer;
+}
+
+.dt-case-left {
+  left: -3.645833vw;
+}
+
+.dt-case-right {
+  right: -3.645833vw;
+}
+
+/*我们的团队样式*/
+.dt-teams {
+  width: 100%;
+  height: 26.041667vw;
+  background: url('/static/img/index/team-banner.png') no-repeat 0 0/100% 100%;
+  padding-top: 3.802083vw;
+  margin-bottom: 7.65625vw;
+}
+
+.dt-light-title {
+  margin-bottom: 4.6875vw;
+}
+
+.dt-team-content {
+  width: 67.708333vw;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.dt-team-list-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  margin-bottom: 3.645833vw;
+}
+
+.dt-team-number {
+  font-size: 1.458333vw;
+  font-weight: bold;
+  margin: 0 0.104167vw;
+}
+
+.dt-team-desc {
+  width: 100%;
+  padding: 0 6.25vw;
+  font-size: 1.041667vw;
+  text-align: center;
+  line-height: 2.239583vw;
+}
+
+/*合作伙伴的样式*/
+.dt-partern {
+  width: 100%;
+  margin-bottom: 8.854167vw;
+}
+.dt-partern-content {
+  width: 67.708333vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dt-partern-list {
+  width: 16.927083vw;
+  height: 5.9375vw;
+  flex-shrink: 0;
+  padding: 0.364583vw 0.46875vw;
+  border-right: 1px solid rgba(210, 210, 210, 0.5);
+  border-bottom: 1px solid rgba(210, 210, 210, 0.5);
+}
+
+.dt-partern-list:nth-child(4),
+.dt-partern-list:nth-child(8),
+.dt-partern-list:nth-child(12) {
+  border-right: none;
+}
+.dt-partern-list:nth-child(9),
+.dt-partern-list:nth-child(10),
+.dt-partern-list:nth-child(11),
+.dt-partern-list:nth-child(12) {
+  border-bottom: none;
+}
+
+.dt-partern-img {
+  width: 100%;
+  height: 100%;
+}

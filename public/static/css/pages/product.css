@@ -1,0 +1,60 @@
+/*核心产品的样式*/
+.dt-product {
+  width: 100%;
+  margin-top: 3.854167vw;
+  margin-bottom: 2.604167vw;
+}
+
+.dt-private-title {
+  margin-bottom: 4.322917vw;
+}
+
+.dt-product-content {
+  width: 67.708333vw;
+  margin: 0 auto;
+}
+
+.de-product-desc {
+  width: 100%;
+  padding: 0 10.260417vw;
+  font-size: 0.833333vw;
+  color: #aaaaaa;
+  line-height: 1.458333vw;
+  margin-bottom: 4.6875vw;
+  text-align: center;
+}
+
+.dt-product-contain {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dt-product-list {
+  width: 12.5vw;
+  padding: 0 0.3125vw;
+  flex-shrink: 0;
+  margin: 0 1.5625vw 3.645833vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dt-product-img {
+  width: 3.125vw;
+  height: 3.125vw;
+  margin-bottom: 1.5625vw;
+}
+
+.dt-product-title {
+  font-size: 1.145833vw;
+  color: #333333;
+  margin-bottom: 1.666667vw;
+}
+
+.dt-product-desc {
+  font-size: 0.833333vw;
+  color: #707070;
+  line-height: 1.770833vw;
+  text-align: center;
+}

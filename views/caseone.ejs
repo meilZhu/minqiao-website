@@ -1,0 +1,140 @@
+<!--
+ * @FileName: 
+ * @Author: manyao.zhu
+ * @Date: 2020-04-22 11:47:51
+ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/static/css/common/base.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/static/css/common/pages.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/static/css/pages/case.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/static/css/common/group.css"
+    />
+    <script
+      type="text/javascript"
+      src="/javascripts/jquery-3.4.1.min.js"
+    ></script>
+  </head>
+  <body>
+    <section class="dt-contain">
+      <!--头部-->
+      <section class="dt-header-contain">
+        <div class="dt-header-content">
+          <img
+            src="/static/img/common/logo.png"
+            alt="公司logo"
+            class="dt-logo"
+          />
+          <ul class="dt-header-list-content">
+            <li class="dt-header-list">
+              <a href="/" class="dt-header-jump">首页</a>
+            </li>
+            <li class="dt-header-list">
+              <a href="/product" class="dt-header-jump">产品中心</a>
+            </li>
+            <li class="dt-header-list">
+              <a href="/service" class="dt-header-jump">服务中心</a>
+            </li>
+            <li class="dt-header-list">
+              <a href="/case_xbom" class="dt-header-jump dt-header-active-list"
+                >典型案例</a
+              >
+            </li>
+            <li class="dt-header-list">
+              <a href="/us" class="dt-header-jump">关于我们</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--banner部分-->
+      <section class="dt-banner-contain">
+        <img
+          src="/static/img/case_xbom/case_xbom_banner.png"
+          alt="首页banner"
+          class="dt-banner-img"
+        />
+      </section>
+      <!--典型案例-->
+      <section class="dt-case">
+        <p class="dt-content-title">
+          <span>典型案例</span>
+          <span class="dt-content-sub-title">
+            Classic Case
+          </span>
+        </p>
+        <ul class="dt-group">
+          <li class="dt-group-list">
+            <div class="dt-group-content">
+              <p class="dt-group-title">
+                客户介绍
+                <span class="dt-group-en-title">/ Customer introduction</span>
+              </p>
+              <p class="dt-group-desc">
+                蔚来汽车是新兴的互联网造车企业，是立足全球的智能电动汽车公司，由知名科技企业和企业家于2014年创立。蔚来致力于通过提供高性能的智能电动汽车与用户体验，为用户创造愉悦的生活方式，打造全球范围内的用户企业。
+              </p>
+            </div>
+            <img
+              src="/static/img/case_xbom/customer.png"
+              alt="经典案例"
+              class="dt-group-img"
+            />
+          </li>
+          <li class="dt-group-list">
+            <img
+              src="/static/img/case_xbom/bg.png"
+              alt="经典案例"
+              class="dt-group-img"
+            />
+            <div class="dt-group-content">
+              <p class="dt-group-title">
+                项目背景
+                <span class="dt-group-en-title">/ Project context</span>
+              </p>
+              <p class="dt-group-desc">
+                蔚来汽车与江淮汽车的合作关系是由江淮汽车代工装配，蔚来的MBOM重构时，无法获取江淮的工艺信息，BOM中的工艺属性缺失，所以需要有个转换的系统，供江淮设置BOM的工位工序、仓库地点等工艺信息，由此产生XBOM系统；后期XBOM系统承接了整车物料号管理模块业务。
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!--其他案例-->
+      <section class="dt-other-case">
+        <p class="dt-content-title">
+          <span>典型案例</span>
+          <span class="dt-content-sub-title">
+            Classic Case
+          </span>
+        </p>
+        <div class="dt-other-case-content">
+          <img
+            src="/static/img/case_xbom/case.png"
+            alt="其他经典案例"
+            class="dt-other-case-img"
+          />
+          <div class="dt-other-case-desc-contain">
+            <p class="dt-other-case-title">蔚来汽车ALM系统</p>
+            <p class="dt-other-case-desc">
+              蔚来汽车从NP1.0到2.0的升级，需要加强对需求的可追溯性，满足业务对开发流程状态的完整可视化，加速评审流程，快速实现集成及实时可追踪等要求，因此IT信息化也需要进行同步升级，引入JAMA并与JIRA、PLM等完成数据集成，实现从需求到发布的端到端全生命周期管理。
+            </p>
+            <button class="dt-btn">
+              <a href="/case_alm" class="dt-btn-tag">查看详情</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--底部-->
+      <%- include('./common/footer') %>
+    </section>
+  </body>
+</html>

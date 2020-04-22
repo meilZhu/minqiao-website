@@ -1,0 +1,79 @@
+/*我们的服务的样式*/
+.dt-service {
+  width: 67.708333vw;
+  margin: 0 auto;
+  padding-top: 5.364583vw;
+}
+
+/*其他服务的样式*/
+.dt-other-service {
+  width: 100%;
+  padding: 3.4375vw 0 7.854167vw;
+  background: #f9fafc;
+}
+
+.dt-other-service-content {
+  width: 67.708333vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dt-other-service-list {
+  width: 21.145833vw;
+  background: #fff;
+  border-radius: 0.520833vw;
+  position: relative;
+}
+
+.dt-other-service-list:hover {
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.09);
+}
+
+.dt-other-service-img {
+  width: 100%;
+  height: 10.6875rem;
+  margin-bottom: 4.791667vw;
+}
+
+.dt-other-service-icon {
+  width: 9.375vw;
+  height: 9.375vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -4.6875vw;
+  top: 3.958333vw;
+}
+
+.dt-other-service-desc-content {
+  width: 100%;
+  padding: 0.208333vw 3.125vw 1.041667vw;
+}
+
+.dt-other-service-title {
+  font-size: 1.5625vw;
+  color: #4f4f6f;
+  margin-bottom: 1.71875vw;
+  text-align: center;
+}
+
+.dt-other-service-desc {
+  font-size: 0.9375vw;
+  color: #787878;
+  line-height: 2.395833vw;
+  position: relative;
+  padding-left: 0.520833vw;
+}
+
+.dt-other-service-desc::before {
+  display: inline-block;
+  width: 0.3125vw;
+  height: 0.3125vw;
+  border-radius: 50%;
+  content: '';
+  background: rgba(181, 181, 181, 1);
+  position: absolute;
+  top: 50%;
+  margin-top: -0.15625vw;
+  left: -0.46875vw;
+}

@@ -1,0 +1,63 @@
+/*典型案例样式*/
+.dt-case {
+  width: 100%;
+  padding-top: 4.6875vw;
+}
+
+/*其他案例样式*/
+.dt-other-case {
+  width: 100%;
+  background: rgba(251, 251, 251, 1);
+  padding: 7.8125vw 0 10.416667vw;
+}
+
+.dt-other-case-content {
+  width: 67.708333vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.dt-other-case-img {
+  width: 36.5625vw;
+  height: 22.760417vw;
+}
+
+.dt-other-case-desc-contain {
+  width: 33.072917vw;
+  height: 18.645833vw;
+  position: absolute;
+  top: 50%;
+  margin-top: -9.322917vw;
+  right: 0;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 17px 21px 0px rgba(0, 0, 0, 0.08);
+  padding: 2.96875vw 4.53125vw 1.5625vw 1.458333vw;
+}
+
+.dt-other-case-title {
+  font-size: 1.145833vw;
+  color: #333333;
+  position: relative;
+  margin-bottom: 2.604167vw;
+}
+
+.dt-other-case-title::before {
+  display: inline-block;
+  width: 2.135417vw;
+  height: 0.104167vw;
+  content: '';
+  background: rgba(51, 51, 51, 1);
+  position: absolute;
+  left: 0;
+  bottom: -0.78125vw;
+}
+
+.dt-other-case-desc {
+  font-size: 0.833333vw;
+  color: #666666;
+  line-height: 1.354167vw;
+}
+
+.dt-btn {
+  margin-top: 2.083333vw;
+}

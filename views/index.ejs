@@ -36,16 +36,16 @@
               <a href="/" class="dt-header-jump dt-header-active-list">首页</a>
             </li>
             <li class="dt-header-list">
-              <a href="/" class="dt-header-jump">产品中心</a>
+              <a href="/product" class="dt-header-jump">产品中心</a>
             </li>
             <li class="dt-header-list">
-              <a href="/" class="dt-header-jump">服务中心</a>
+              <a href="/service" class="dt-header-jump">服务中心</a>
             </li>
             <li class="dt-header-list">
-              <a href="/" class="dt-header-jump">典型案例</a>
+              <a href="/case_xbom" class="dt-header-jump">典型案例</a>
             </li>
             <li class="dt-header-list">
-              <a href="/" class="dt-header-jump">关于我们</a>
+              <a href="/us" class="dt-header-jump">关于我们</a>
             </li>
           </ul>
         </div>
@@ -95,7 +95,7 @@
       <section class="dt-production">
         <p class="dt-content-title">
           <span>我们的产品</span>
-          <span class="dt-content-sub-title">Our products</span>
+          <span class="dt-content-sub-title">Our Products</span>
         </p>
         <div class="dt-production-content">
           <img
@@ -122,8 +122,8 @@
               连通各研发专业系统以及工具实现全方位协同环境
             </p>
             <p class="dt-production-desc">端到端的产品变更流程</p>
-            <button class="dt-btn">
-              <a href="" class="dt-btn-tag">查看详情</a>
+            <button class="dt-btn dt-private-btn">
+              <a href="/product" class="dt-btn-tag">查看详情</a>
             </button>
           </div>
         </div>
@@ -132,7 +132,7 @@
       <section class="dt-service">
         <p class="dt-content-title">
           <span>我们的服务</span>
-          <span class="dt-content-sub-title">Our services</span>
+          <span class="dt-content-sub-title">Our Service</span>
         </p>
         <ul class="dt-service-content">
           <li class="dt-service-list">
@@ -158,7 +158,7 @@
             <div class="dt-service-list-jump">
               <p class="dt-service-number">01</p>
               <p class="dt-service-number-desc">3DE系统实施与开发</p>
-              <a href="" class="dt-service-btn"></a>
+              <a href="/service" class="dt-service-btn"></a>
             </div>
           </li>
           <li class="dt-service-list">
@@ -167,7 +167,7 @@
               <p class="dt-service-number-desc">
                 数字化产品开发平台发展战略规划
               </p>
-              <a href="" class="dt-service-btn"></a>
+              <a href="/service" class="dt-service-btn"></a>
             </div>
             <div class="dt-service-list-content">
               <img
@@ -192,7 +192,7 @@
           <li class="dt-service-list">
             <div class="dt-service-list-content">
               <img
-                src="/static/img/index/service1.png"
+                src="/static/img/index/service3.png"
                 alt="公司服务"
                 class="dt-service-img"
               />
@@ -207,7 +207,7 @@
             <div class="dt-service-list-jump">
               <p class="dt-service-number">03</p>
               <p class="dt-service-number-desc">HPC系统实施</p>
-              <a href="" class="dt-service-btn"></a>
+              <a href="/service" class="dt-service-btn"></a>
             </div>
           </li>
         </ul>
@@ -217,8 +217,179 @@
       <section class="dt-case">
         <p class="dt-content-title">
           <span>我们的案例</span>
-          <span class="dt-content-sub-title">Typical case</span>
+          <span class="dt-content-sub-title">Typical Case</span>
         </p>
+        <div class="dt-case-content">
+          <div class="dt-case-inner-content">
+            <ul class="dt-case--list-content">
+              <li class="dt-case-list">
+                <div class="dt-case-list-desc-content">
+                  <p class="dt-case-list-title">蔚来汽车XBOM系统</p>
+                  <p class="dt-case-list-desc">
+                    蔚来汽车与江淮汽车的合作关系是由江淮汽车代工装配，蔚来的MBOM重构时，无法获取江淮的工艺信息，BOM中的工艺属性缺失，所以需要有个转换的系统，供江淮设置BOM的工位工序、仓库地点等工艺信息，由此产生XBOM系统；后期XBOM系统承接了整车物料号管理模块业务。
+                  </p>
+                  <button class="dt-btn">
+                    <a href="/case_xbom" class="dt-btn-tag">查看详情</a>
+                  </button>
+                </div>
+                <img
+                  src="/static/img/index/case1.png"
+                  alt="公司案例"
+                  class="dt-case-img"
+                />
+              </li>
+              <li class="dt-case-list">
+                <div class="dt-case-list-desc-content">
+                  <p class="dt-case-list-title">蔚来汽车ALM系统</p>
+                  <p class="dt-case-list-desc">
+                    蔚来汽车从NP1.0到2.0的升级，需要加强对需求的可追溯性，满足业务对开发流程状态的完整可视化，加速评审流程，快速实现集成及实时可追踪等要求，因此IT信息化也需要进行同步升级，引入JAMA并与JIRA、PLM等完成数据集成，实现从需求到发布的端到端全生命周期管理。
+                  </p>
+                  <button class="dt-btn">
+                    <a href="case_alm" class="dt-btn-tag">查看详情</a>
+                  </button>
+                </div>
+                <img
+                  src="/static/img/index/case2.png"
+                  alt="公司案例"
+                  class="dt-case-img"
+                />
+              </li>
+            </ul>
+          </div>
+          <img
+            src="/static/img/index/left.png"
+            alt="公司案例切换"
+            class="dt-case-btn dt-case-left"
+          />
+          <img
+            src="/static/img/index/right.png"
+            alt="公司案例切换"
+            class="dt-case-btn dt-case-right"
+          />
+        </div>
+      </section>
+
+      <!--我们的团队-->
+      <section class="dt-teams">
+        <p class="dt-content-title dt-light-title">
+          <span>我们的团队</span>
+          <span class="dt-content-sub-title">OUR TEAM</span>
+        </p>
+        <div class="dt-team-content">
+          <ul class="dt-team-list-content">
+            <li class="dt-team-list">
+              业务咨询<span class="dt-team-number">10</span>+
+            </li>
+            <li class="dt-team-list">
+              技术架构<span class="dt-team-number">8</span>人
+            </li>
+            <li class="dt-team-list">
+              产品设计<span class="dt-team-number">3</span>人
+            </li>
+            <li class="dt-team-list">
+              研发及测试团队
+              <span class="dt-team-number">20</span>+
+            </li>
+          </ul>
+          <p class="dt-team-desc">
+            敏桥拥有来自一流管理咨询公司、大型知名企业的高层管理人员，不断开拓、挖掘各个领域的精英，组建了一支顶尖的行业专家、管理专家和技术专家的顾问团队，在管理咨询、技术架构、业务设计等方面具有一流的实战经验。
+          </p>
+        </div>
+      </section>
+
+      <!--我们的合作伙伴-->
+      <section class="dt-partern">
+        <p class="dt-content-title">
+          <span>我们的合作伙伴</span>
+          <span class="dt-content-sub-title">OUR PARTERN</span>
+        </p>
+        <ul class="dt-partern-content">
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/anyong.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/continental.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/midea.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/nio.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/meizhi.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/quick.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/wanhe.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/guoan.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/fenghuo.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/doosan.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/sichuang.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+          <li class="dt-partern-list">
+            <img
+              src="/static/img/index/zhongdian.png"
+              alt="公司合作伙伴"
+              class="dt-partern-img"
+            />
+          </li>
+        </ul>
       </section>
 
       <!--底部-->
