@@ -30,14 +30,14 @@
 }
 
 .dt-advantage-title {
-  font-size: 28px;
+  font-size: 1.458333vw;
   color: #222;
-  margin-bottom: 2.239583vw;
+  margin-bottom: 1.875vw;
   font-weight: bolder;
 }
 
 .dt-advantage-desc {
-  font-size: 18px;
   color: #545454;
-  line-height: 26px;
+  line-height: 1.354167vw;
+  font-size: 0.9375vw;
 }

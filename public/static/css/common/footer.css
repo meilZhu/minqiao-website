@@ -84,6 +84,9 @@
   font-size: 0.625vw;
   position: absolute;
   bottom: 0.520833vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dt-inner-cp {

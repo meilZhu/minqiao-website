@@ -3,65 +3,83 @@
  * @Author: manyao.zhu
  * @Date: 2020-04-20 16:20:25
  -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/static/css/common/footer.css"
-    />
-  </head>
-  <body>
-    <section class="dt-footer-contain">
-      <div class="dt-footer-content">
-        <div class="dt-footer-title">
-          <p class="dt-zh_CN">联系我们</p>
-          Contact us
+
+<section class="dt-footer-contain">
+  <div class="dt-footer-content">
+    <div class="dt-footer-title">
+      <p class="dt-zh_CN">联系我们</p>
+      Contact us
+    </div>
+    <div class="dt-footer-inner-content">
+      <div class="dt-footer-left-content">
+        <div class="dt-footer-left">
+          <img
+            src="/static/img/common/location.png"
+            alt="公司地址"
+            class="footer-left-icon"
+          />
+          <p class="footer-left-desc">
+            中国（上海）自由贸易试验区芳春路400号1幢3层
+          </p>
         </div>
-        <div class="dt-footer-inner-content">
-          <div class="dt-footer-left-content">
-            <div class="dt-footer-left">
-              <img
-                src="/static/img/common/location.png"
-                alt="公司地址"
-                class="footer-left-icon"
-              />
-              <p class="footer-left-desc">
-                中国（上海）自由贸易试验区芳春路400号1幢3层
-              </p>
-            </div>
-            <div class="dt-footer-left">
-              <img
-                src="/static/img/common/tel.png"
-                alt="公司电话"
-                class="footer-left-icon"
-              />
-              <p class="footer-left-desc">0551-62879252</p>
-            </div>
-            <div class="dt-footer-left">
-              <img
-                src="/static/img/common/email.png"
-                alt="公司邮箱"
-                class="footer-left-icon"
-              />
-              <p class="footer-left-desc">info@agilines.com</p>
-            </div>
-          </div>
-          <div class="dt-footer-right-content">
-            <img src="" alt="公司二维码" class="dt-footer-right-icon" />
-            <p class="dt-footer-right-desc">扫一扫，关注公众号</p>
-          </div>
+        <div class="dt-footer-left">
+          <img
+            src="/static/img/common/tel.png"
+            alt="公司电话"
+            class="footer-left-icon"
+          />
+          <p class="footer-left-desc">0551-62879252</p>
         </div>
-        <div class="dt-cp">
-          <a
-            target="_blank"
-            href="http://www.beian.miit.gov.cn"
-            class="dt-inner-cp"
-            >CP证号：皖ICP备16017766号</a
-          >
+        <div class="dt-footer-left">
+          <img
+            src="/static/img/common/email.png"
+            alt="公司邮箱"
+            class="footer-left-icon"
+          />
+          <p class="footer-left-desc">info@agilines.com</p>
         </div>
       </div>
-    </section>
-  </body>
-</html>
+      <div class="dt-footer-right-content">
+        <!-- <img src="" alt="公司二维码" class="dt-footer-right-icon" />
+            <p class="dt-footer-right-desc">扫一扫，关注公众号</p> -->
+      </div>
+    </div>
+    <div class="dt-cp">
+      <a target="_blank" href="http://www.beian.miit.gov.cn" class="dt-inner-cp"
+        >ICP证号：沪ICP备20005954号</a
+      >
+      <a
+        style="display: flex; align-items: center; margin-left: 20px;"
+        target="_blank"
+        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502014783"
+        class="dt-inner-cp"
+      >
+        <img
+          src="/static/img/common/pic.png"
+          style="width: 20px; height: 20px;margin-right: 3px;"
+        />
+        沪公网安备 31011502014783号
+      </a>
+    </div>
+  </div>
+</section>
+
+<script
+  type="text/javascript"
+  src="<%= global.config.publicPath %>/javascripts/jquery-3.4.1.min.js"
+></script>
+
+<script
+  type="text/javascript"
+  src="<%= global.config.publicPath %>/static/js/<%= path %>.js"
+></script>
+
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?977df8a3f831a5540ae32cd3a2ae6047';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>

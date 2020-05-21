@@ -6,43 +6,59 @@
 var express = require('express');
 var router = express.Router();
 
+const _route = { index: require('./viewRoutes/index') }; // 模块化处理
+
 const indexService = require('../fetch/service/index.service');
 const resultBean = require('../utils/result-bean');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index');
+let url = 'str',
+  routes = [],
+  skip = true,
+  renderParam = {};
+
+// 该路由使用的中间件
+router.use(function timeLog(req, res, next) {
+  console.log('view::' + req.path, Date.now());
+  url = (req.path.endsWith('/') ? req.path + 'index' : req.path).slice(1);
+  routes = req.path.split('/');
+  renderParam = {
+    path: url,
+    queryData: req.query || {},
+    paramsData: req.params || {}
+  };
+  next();
 });
 
-router.get('/product', function(req, res, next) {
-  res.render('product');
-});
-
-router.get('/service', function(req, res, next) {
-  res.render('service');
-});
-
-router.get('/us', function(req, res, next) {
-  res.render('us');
-});
-
-router.get('/case_xbom', function(req, res, next) {
-  res.render('caseone');
-});
-
-router.get('/case_alm', function(req, res, next) {
-  res.render('casetwo');
-});
-
-router.post('/auth/login', (req, res, next) => {
-  indexService
-    .login({ username: req.body.username, password: req.body.password })
-    .then(result => {
-      if (result.status) {
-        req.session.access_token = result.data;
-        res.send(resultBean.success('登录成功'));
+// 路由转发
+router.use('/', function(req, res, next) {
+  //目前我们支持二层的url结构
+  if (routes.length === 3) {
+    try {
+      let fun = _route[routes[1]] && _route[routes[1]][routes[2]];
+      if (fun && fun !== null) {
+        skip = false;
+        fun(req, res, function(data, err) {
+          if (err) {
+            next(err);
+          } else {
+            renderParam.data = data;
+            res.render(url, renderParam);
+          }
+        });
       }
-    });
+    } catch (e) {
+      console.error(e);
+      throw e;
+    }
+  }
+  if (skip) {
+    res.render(url, renderParam);
+  }
 });
 
+/* GET home page */
+// router.get('/product', function(req, res, next) {
+//   console.log(1);
+//   res.render('product');
+// });
 module.exports = router;
